@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Views</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/navBar.css">
+</head>
+<body>
+  <h1>Modify Ur list</h1>
+  <%- include('./partials/menu.ejs') %>
+  <form action="/todos/edit/<%=todos.id%>" method="post">
+  <input type="hidden" name="_method" value="PUT">
+  <input type="text" name="name" value="<%= todos.name %>">
+  <input type="text" name="item" value="<%= todos.item %>">
+  <button type="submit">Update</button>
+</form>
+</body>
+</html>

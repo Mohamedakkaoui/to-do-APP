@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "name": "mohamed",
+      "item": "Go grocery "
+    },
+    {
+      "id": "3",
+      "name": "malak",
+      "item": "Call dad"
+    },
+    {
+      "id": "dc94",
+      "name": "akkaoui",
+      "item": "go pray"
+    },
+    {
+      "id": "e8da",
+      "name": "yassine",
+      "item": "go pray"
+    }
+  ]
+}
